@@ -1,9 +1,10 @@
 import './app.scss';
+import Conversor from "./components/Conversor";
 
 function App() {
   return (
     <div className="app">
-      <h1>Teste</h1>
+      <Conversor moedaA="USD" moedaB="BRL"></Conversor>
     </div>
   );
 }
